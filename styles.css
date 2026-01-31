@@ -71,6 +71,26 @@ hr {
   color: darkred;
 }
 
+.left-block {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 150px;
+  height: 100%;
+  background-color: rgb(39, 0, 56);
+  border-radius: 0 16px 16px 0;
+}
+
+.right-block {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 150px;
+  height: 100%;
+  background-color: rgb(39, 0, 56);
+  border-radius: 16px 0 0 16px;
+}
+
 .social-media a {
   color: purple;
   display: inline-block;
