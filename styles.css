@@ -1,5 +1,5 @@
 body {
-  background-color: rosybrown;
+  background-color: black;
   font-family: Arial, sans-serif;
   text-align: center;
 }
@@ -41,6 +41,7 @@ h2 {
   margin-top: 5px;
   border-radius: 10px;
   object-fit: cover;
+  border: 1px solid black;
 }
 
 p {
@@ -50,7 +51,7 @@ p {
 
 .social-media a {
   color: purple;
-  word-break: break-all;
+  display: inline-block;
 }
 
 a {
@@ -83,4 +84,17 @@ hr {
 .contact-info {
   color: black;
   transform: scale(1.1);
+}
+
+.portfolio-link {
+  display: block;
+  margin-top: 10px;
+  color: darkred;
+}
+
+.portfolio-link:hover {
+  color: darkviolet;
+  font-size:17px;
+  text-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  font-weight: bold;
 }
