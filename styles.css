@@ -4,6 +4,29 @@ body {
   text-align: center;
 }
 
+a {
+  text-decoration: none;
+  transition: all 0.5s ease;
+}
+
+h2 {
+  margin-top: 0px;
+}
+
+p {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+hr {
+  background-color: black;
+  border: none;
+  height: 2px;
+  margin: 5px 0px;
+  width: 300px;
+  
+}
+
 .business-card, .social-media {
   width: 300px;
   text-align: center;
@@ -18,22 +41,16 @@ body {
   margin-top: 100px;
   margin-left: auto;
   margin-right: auto; 
-  box-sizing: bordrer-box;
 }
-
-.full-name {
-  font-size: 18px;
-  font-weight: bold;
-}
-
 
 .social-media {
   max-width: 200px;
   margin: 0 auto;
 }
 
-h2 {
-  margin-top: 0px;
+.full-name {
+  font-size: 18px;
+  font-weight: bold;
 }
 
 .profile-image {
@@ -44,30 +61,20 @@ h2 {
   border: 1px solid black;
 }
 
-p {
-  margin-top: 5px;
-  margin-bottom: 5px;
+.contact-info {
+  color: black;
+}
+
+.portfolio-link {
+  display: block;
+  margin-top: 10px;
+  color: darkred;
 }
 
 .social-media a {
   color: purple;
   display: inline-block;
 }
-
-a {
-  text-decoration: none;
-  transition: all 0.5s ease;
-}
-
-hr {
-  background-color: black;
-  border: none;
-  height: 2px;
-  margin: 5px 0px;
-  width: 300px;
-  
-}
-
 
 .social-media a:hover {
   color: darkviolet;
@@ -79,22 +86,11 @@ hr {
 .contact-info:hover {
   color: darkviolet;
   text-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-}
-
-.contact-info {
-  color: black;
   transform: scale(1.1);
-}
-
-.portfolio-link {
-  display: block;
-  margin-top: 10px;
-  color: darkred;
 }
 
 .portfolio-link:hover {
   color: darkviolet;
   font-size:17px;
   text-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-  font-weight: bold;
 }
