@@ -30,22 +30,26 @@ hr {
 .business-card, .social-media {
   width: 300px;
   text-align: center;
-  background-color: grey;
+  background: linear-gradient(to bottom right, pink, grey);
   padding: 20px;
   margin: auto;
 }
 
 .business-card {
   font-size: 16px;
-  border-radius: 16px;
+  border-radius: 20px;
   margin-top: 100px;
   margin-left: auto;
   margin-right: auto; 
+  box-shadow: 0 8px 32px rgba(255, 255, 255, 0.479);  
 }
+
 
 .social-media {
   max-width: 200px;
   margin: 0 auto;
+  background: none;
+  
 }
 
 .full-name {
@@ -63,6 +67,7 @@ hr {
 
 .contact-info {
   color: black;
+  text-shadow: 0 0px 1px #000;
 }
 
 .portfolio-link {
@@ -82,6 +87,7 @@ hr {
   background-image: url('https://imagine-public.x.ai/imagine-public/images/33daf432-8b77-42f7-a323-ba1dbf09b92a.jpg');
   background-size: cover;
   background-position: center;
+  box-shadow: 0 8px 32px rgba(99, 99, 99, 0.479);
 }
 
 .right-block {
@@ -95,6 +101,7 @@ hr {
   background-image: url("https://i.ibb.co/ZpqZYRKX/5byykaz9.png");
   background-size: cover;
   background-position: center;
+  box-shadow: 0 8px 32px rgba(99, 99, 99, 0.479);
 }
 
 .social-media a {
