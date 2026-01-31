@@ -127,3 +127,10 @@ hr {
   font-size:17px;
   text-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
+
+@media screen and (max-width: 768px) {
+  .left-block,
+  .right-block {
+    display: none !important;
+  }
+}
