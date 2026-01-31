@@ -75,20 +75,26 @@ hr {
   position: absolute;
   top: 0;
   left: 0;
-  width: 150px;
+  width: 200px;
   height: 100%;
   background-color: rgb(39, 0, 56);
   border-radius: 0 16px 16px 0;
+  background-image: url('https://imagine-public.x.ai/imagine-public/images/33daf432-8b77-42f7-a323-ba1dbf09b92a.jpg');
+  background-size: cover;
+  background-position: center;
 }
 
 .right-block {
   position: absolute;
   top: 0;
   right: 0;
-  width: 150px;
+  width: 200px;
   height: 100%;
   background-color: rgb(39, 0, 56);
   border-radius: 16px 0 0 16px;
+  background-image: url("https://i.ibb.co/ZpqZYRKX/5byykaz9.png");
+  background-size: cover;
+  background-position: center;
 }
 
 .social-media a {
