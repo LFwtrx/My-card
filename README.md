@@ -18,6 +18,6 @@ Technologies
 
 Notes
 - Consider adjusting colors and contrast for accessibility.
-- Fix small typos in `styles.css` (e.g. `bordrer-box` → `border-box`) to ensure consistent layout.
+- Fix small typos in `styles.css` to ensure consistent layout.
 
 Created by the project owner — feel free to customize for your portfolio.
